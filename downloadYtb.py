@@ -10,4 +10,4 @@ yt2 = pytube.Playlist(url2)
 #video.download(r'Z:\уроки с ютуба питон')
 for video in yt2.videos:
   video.streams.filter(res='720p').first().download(r'')
-  #2
+  #222
